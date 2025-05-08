@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SpeedyBites - Delicious food delivered to your doorstep">
+  <title>SpeedyBites | Food Delivery</title>
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+  <!-- Header with Navigation -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo">
+          <span class="logo-icon">🍔</span>
+          <span class="logo-text">SpeedyBites</span>
+        </a>
+        
+        <nav class="nav-links">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        
+        <div class="header-actions">
+          <button class="theme-toggle" aria-label="Toggle dark/light mode">
+            <span class="theme-toggle-icon">🌙</span>
+          </button>
+          <div class="cart-container">
+            <a href="cart.html" class="cart-icon" aria-label="View cart">
+              <span class="cart-icon-svg">🛒</span>
+              <span class="cart-count" aria-label="Items in cart">0</span>
+            </a>
+          </div>
+          <button class="mobile-menu-toggle" aria-label="Toggle menu">
+            <span class="mobile-menu-icon"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Menu (Hidden by default) -->
+  <div class="mobile-menu">
+    <nav class="mobile-nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Delicious Food <span class="highlight">Delivered Fast</span></h1>
+        <p class="hero-subtitle">Enjoy restaurant-quality meals in the comfort of your home</p>
+        <a href="#menu" class="btn btn-primary">Order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu-section">
+    <div class="container">
+      <h2 class="section-title">Our Menu</h2>
+      
+      <!-- Search and Filter Controls -->
+      <div class="controls-container">
+        <div class="search-container">
+          <input type="text" id="search-input" class="search-input" placeholder="Search for food..." aria-label="Search for food">
+          <button class="search-btn" aria-label="Search">🔍</button>
+        </div>
+        
+        <div class="filter-container">
+          <div class="filter-group">
+            <h3 class="filter-title">Categories</h3>
+            <div class="category-filters">
+              <button class="filter-btn active" data-category="all">All</button>
+              <button class="filter-btn" data-category="veg">Veg</button>
+              <button class="filter-btn" data-category="non-veg">Non-Veg</button>
+              <button class="filter-btn" data-category="snacks">Snacks</button>
+              <button class="filter-btn" data-category="meals">Meals</button>
+              <button class="filter-btn" data-category="desserts">Desserts</button>
+              <button class="filter-btn" data-category="beverages">Beverages</button>
+            </div>
+          </div>
+          
+          <div class="filter-group">
+            <h3 class="filter-title">Sort By</h3>
+            <select id="sort-select" class="sort-select" aria-label="Sort items">
+              <option value="default">Recommended</option>
+              <option value="price-asc">Price: Low to High</option>
+              <option value="price-desc">Price: High to Low</option>
+              <option value="name-asc">Name: A to Z</option>
+              <option value="name-desc">Name: Z to A</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Food Items Container -->
+      <div class="loading-spinner" id="loading-spinner">
+        <div class="spinner"></div>
+      </div>
+      
+      <div class="food-grid" id="food-grid">
+        <!-- Food items will be inserted here by JavaScript -->
+      </div>
+      
+      <div class="no-results" id="no-results">
+        <p>No food items match your search. Try something else!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features-section">
+    <div class="container">
+      <h2 class="section-title">Why Choose SpeedyBites</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3 class="feature-title">Fast Delivery</h3>
+          <p class="feature-desc">Hot food at your doorstep in under 30 minutes</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🍲</div>
+          <h3 class="feature-title">Fresh Food</h3>
+          <p class="feature-desc">Prepared with fresh ingredients right after you order</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💸</div>
+          <h3 class="feature-title">Best Prices</h3>
+          <p class="feature-desc">Enjoy delicious meals at competitive prices</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔄</div>
+          <h3 class="feature-title">Easy Returns</h3>
+          <p class="feature-desc">Not satisfied? Get a refund or replacement</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2 class="section-title">About SpeedyBites</h2>
+          <p>Founded in 2023, SpeedyBites has quickly become the city's favorite food delivery service. We partner with the best local restaurants to bring you a wide variety of delicious meals.</p>
+          <p>Our mission is to make quality food accessible to everyone, anywhere, anytime. We take pride in our fast delivery, user-friendly platform, and exceptional customer service.</p>
+          <a href="#" class="btn btn-secondary">Learn More</a>
+        </div>
+        <div class="about-image">
+          <img src="https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Team of chefs preparing food" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p><strong>Email:</strong> support@speedybites.com</p>
+          <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+          <p><strong>Address:</strong> 123 Food Street, Delivery City, DC 10001</p>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"><span>📱</span></a>
+            <a href="#" aria-label="Twitter"><span>📱</span></a>
+            <a href="#" aria-label="Instagram"><span>📱</span></a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Toast Notification (Hidden by default) -->
+  <div class="toast" id="toast">
+    <div class="toast-content">
+      <span class="toast-icon">✓</span>
+      <span class="toast-message">Item added to cart!</span>
+    </div>
+    <button class="toast-close" aria-label="Close notification">×</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <span class="logo-icon">🍔</span>
+          <span class="logo-text">SpeedyBites</span>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>Navigation</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Refund Policy</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact</h3>
+            <ul>
+              <li>support@speedybites.com</li>
+              <li>+1 (555) 123-4567</li>
+              <li>123 Food Street, Delivery City</li>
+              <li>Open 10:00 AM - 11:00 PM</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 SpeedyBites. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/data.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

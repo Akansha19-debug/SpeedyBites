@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SpeedyBites - Your Cart">
+  <title>Your Cart | SpeedyBites</title>
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+  <!-- Header with Navigation -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo">
+          <span class="logo-icon">🍔</span>
+          <span class="logo-text">SpeedyBites</span>
+        </a>
+        
+        <nav class="nav-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#menu">Menu</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+        
+        <div class="header-actions">
+          <button class="theme-toggle" aria-label="Toggle dark/light mode">
+            <span class="theme-toggle-icon">🌙</span>
+          </button>
+          <div class="cart-container">
+            <a href="cart.html" class="cart-icon active" aria-label="View cart">
+              <span class="cart-icon-svg">🛒</span>
+              <span class="cart-count" aria-label="Items in cart">0</span>
+            </a>
+          </div>
+          <button class="mobile-menu-toggle" aria-label="Toggle menu">
+            <span class="mobile-menu-icon"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Menu (Hidden by default) -->
+  <div class="mobile-menu">
+    <nav class="mobile-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#menu">Menu</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Cart Section -->
+  <section class="cart-section">
+    <div class="container">
+      <h1 class="page-title">Your Cart</h1>
+      
+      <div class="cart-container">
+        <div class="cart-items" id="cart-items">
+          <!-- Cart items will be inserted here by JavaScript -->
+        </div>
+        
+        <div class="cart-empty" id="cart-empty">
+          <div class="cart-empty-icon">🛒</div>
+          <h2>Your cart is empty</h2>
+          <p>Looks like you haven't added anything to your cart yet.</p>
+          <a href="index.html#menu" class="btn btn-primary">Browse Menu</a>
+        </div>
+        
+        <div class="cart-summary" id="cart-summary">
+          <h2 class="summary-title">Order Summary</h2>
+          <div class="summary-row">
+            <span>Subtotal:</span>
+            <span id="cart-subtotal">₹0.00</span>
+          </div>
+          <div class="summary-row">
+            <span>Delivery Fee:</span>
+            <span id="delivery-fee">₹40.00</span>
+          </div>
+          <div class="summary-row">
+            <span>Tax (5%):</span>
+            <span id="cart-tax">₹0.00</span>
+          </div>
+          <div class="summary-row total">
+            <span>Total:</span>
+            <span id="cart-total">₹0.00</span>
+          </div>
+          <a href="checkout.html" class="btn btn-primary btn-block" id="checkout-btn">Proceed to Checkout</a>
+          <a href="index.html#menu" class="btn btn-secondary btn-block">Continue Shopping</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <span class="logo-icon">🍔</span>
+          <span class="logo-text">SpeedyBites</span>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>Navigation</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#menu">Menu</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Refund Policy</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact</h3>
+            <ul>
+              <li>support@speedybites.com</li>
+              <li>+1 (555) 123-4567</li>
+              <li>123 Food Street, Delivery City</li>
+              <li>Open 10:00 AM - 11:00 PM</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 SpeedyBites. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/data.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/cart-page.js"></script>
+</body>
+</html>
