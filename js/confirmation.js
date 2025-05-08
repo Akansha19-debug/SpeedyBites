@@ -34,9 +34,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // Get current date and time
   const currentDate = new Date();
   
-  // Generate random delivery time between 20-50 minutes
-  const minDeliveryTime = 20;
-  const maxDeliveryTime = 50;
+  // Generate random delivery time between 20-30 minutes
+  const minDeliveryTime = 10;
+  const maxDeliveryTime = 30;
   const randomDeliveryTime = Math.floor(Math.random() * (maxDeliveryTime - minDeliveryTime + 1)) + minDeliveryTime;
   
   // Calculate estimated delivery time
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (confirmationTotal) confirmationTotal.textContent = formatPrice(orderData.totals.total);
   
   // Show countdown toast
-  let countdown = 10;
+  let countdown = 30;
   const countdownInterval = setInterval(() => {
     showToast(`Redirecting to homepage in ${countdown} seconds...`);
     countdown--;
