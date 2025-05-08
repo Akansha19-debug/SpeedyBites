@@ -153,6 +153,6 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 ## Contact
 For questions or feedback, contact the project maintainer:
 - GitHub: [rajtilak-2020](https://github.com/rajtilak-2020)
-- Email: (Add maintainer's email if available)
+- Email: [Here](mailto:rajtilak1062020@gmail.com)
 
 Thank you for exploring SpeedyBites! Happy ordering!
