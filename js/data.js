@@ -7,7 +7,7 @@ const foodItems = [
     price: 320,
     category: "non-veg",
     isVeg: false,
-    image: "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/GhDYJ2BY/butterchicken.jpg",
     popular: true,
     tags: ["spicy", "curry", "lunch", "dinner"]
   },
@@ -18,7 +18,7 @@ const foodItems = [
     price: 250,
     category: "veg",
     isVeg: true,
-    image: "https://images.pexels.com/photos/4331490/pexels-photo-4331490.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/jqwMWyb4/paneertikka.jpg",
     popular: true,
     tags: ["starter", "snack", "grilled"]
   },
@@ -29,7 +29,7 @@ const foodItems = [
     price: 220,
     category: "veg",
     isVeg: true,
-    image: "https://images.pexels.com/photos/7437464/pexels-photo-7437464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/B6dc5w0c/vegbiryani.jpg",
     popular: false,
     tags: ["rice", "lunch", "dinner"]
   },
@@ -40,7 +40,7 @@ const foodItems = [
     price: 280,
     category: "non-veg",
     isVeg: false,
-    image: "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/C16DJnHC/chickenbiryani.jpg",
     popular: true,
     tags: ["rice", "lunch", "dinner", "spicy"]
   },
@@ -51,7 +51,7 @@ const foodItems = [
     price: 150,
     category: "veg",
     isVeg: true,
-    image: "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/1tTMC3pF/masaladosa.jpg",
     popular: true,
     tags: ["breakfast", "south indian"]
   },
@@ -62,7 +62,7 @@ const foodItems = [
     price: 50,
     category: "snacks",
     isVeg: true,
-    image: "https://images.pexels.com/photos/12123515/pexels-photo-12123515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/W1n8RnGT/samosa.jpg",
     popular: false,
     tags: ["snack", "teatime", "fried"]
   },
@@ -73,7 +73,7 @@ const foodItems = [
     price: 300,
     category: "non-veg",
     isVeg: false,
-    image: "https://images.pexels.com/photos/583903/pexels-photo-583903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/8CZrPf38/fishcurry.jpg",
     popular: false,
     tags: ["seafood", "curry", "lunch", "dinner"]
   },
@@ -95,7 +95,7 @@ const foodItems = [
     price: 180,
     category: "snacks",
     isVeg: false,
-    image: "https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/59TLCvtb/chickennuggets.jpg",
     popular: false,
     tags: ["fried", "appetizer", "snack"]
   },
@@ -106,7 +106,7 @@ const foodItems = [
     price: 90,
     category: "beverages",
     isVeg: true,
-    image: "https://images.pexels.com/photos/3625372/pexels-photo-3625372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/DZmBPXbF/mangolassi.jpg",
     popular: true,
     tags: ["drink", "sweet", "yogurt"]
   },
@@ -117,7 +117,7 @@ const foodItems = [
     price: 60,
     category: "veg",
     isVeg: true,
-    image: "https://images.pexels.com/photos/2689419/pexels-photo-2689419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/Pf9FK247/garlicnaan.jpg",
     popular: false,
     tags: ["bread", "side dish"]
   },
@@ -128,7 +128,7 @@ const foodItems = [
     price: 130,
     category: "snacks",
     isVeg: true,
-    image: "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/DZm4WykS/frenchfries.jpg",
     popular: true,
     tags: ["fried", "appetizer", "side dish"]
   },
@@ -139,7 +139,7 @@ const foodItems = [
     price: 100,
     category: "desserts",
     isVeg: true,
-    image: "https://images.pexels.com/photos/11121700/pexels-photo-11121700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/Z5F7bZSk/gulaabjamun.jpg",
     popular: true,
     tags: ["sweet", "dessert", "indian"]
   },
@@ -150,7 +150,7 @@ const foodItems = [
     price: 270,
     category: "non-veg",
     isVeg: false,
-    image: "https://images.pexels.com/photos/2673353/pexels-photo-2673353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/wBqmpQwc/chickentikka.jpg",
     popular: true,
     tags: ["grilled", "starter", "spicy"]
   },
@@ -161,7 +161,7 @@ const foodItems = [
     price: 50,
     category: "beverages",
     isVeg: true,
-    image: "https://images.pexels.com/photos/5501118/pexels-photo-5501118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/PqSSD4J2/masalachai.jpg",
     popular: false,
     tags: ["hot", "drink", "tea"]
   },
@@ -172,7 +172,7 @@ const foodItems = [
     price: 150,
     category: "snacks",
     isVeg: true,
-    image: "https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/1z7KX37d/springrolls.jpg",
     popular: false,
     tags: ["fried", "appetizer", "starter"]
   },
@@ -183,7 +183,7 @@ const foodItems = [
     price: 240,
     category: "veg",
     isVeg: true,
-    image: "https://images.pexels.com/photos/9893169/pexels-photo-9893169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/jqwMWyb4/paneertikka.jpg",
     popular: false,
     tags: ["curry", "lunch", "dinner", "healthy"]
   },
@@ -194,7 +194,7 @@ const foodItems = [
     price: 350,
     category: "non-veg",
     isVeg: false,
-    image: "https://images.pexels.com/photos/2233729/pexels-photo-2233729.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/fbRKM9CX/tandoorichicken.jpg",
     popular: true,
     tags: ["grilled", "spicy", "dinner"]
   },
@@ -205,7 +205,7 @@ const foodItems = [
     price: 300,
     category: "meals",
     isVeg: true,
-    image: "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/G2BxynZm/vegthali.jpg",
     popular: true,
     tags: ["full meal", "lunch", "dinner", "combo"]
   },
@@ -216,7 +216,7 @@ const foodItems = [
     price: 400,
     category: "meals",
     isVeg: false,
-    image: "https://images.pexels.com/photos/6260921/pexels-photo-6260921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/13PBYTNv/nonvegthali.jpg",
     popular: true,
     tags: ["full meal", "lunch", "dinner", "combo"]
   },
@@ -227,7 +227,7 @@ const foodItems = [
     price: 70,
     category: "beverages",
     isVeg: true,
-    image: "https://images.pexels.com/photos/2109099/pexels-photo-2109099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/XqCZ8Hv3/freshlimesoda.jpg",
     popular: false,
     tags: ["drink", "refreshing", "cold"]
   },
@@ -238,7 +238,7 @@ const foodItems = [
     price: 260,
     category: "veg",
     isVeg: true,
-    image: "https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/mrLdhqLP/malaikorma.jpg",
     popular: false,
     tags: ["curry", "lunch", "dinner"]
   },
@@ -249,7 +249,7 @@ const foodItems = [
     price: 380,
     category: "non-veg",
     isVeg: false,
-    image: "https://images.pexels.com/photos/6260918/pexels-photo-6260918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/XqCLT68z/muttoncurry.jpg",
     popular: false,
     tags: ["curry", "spicy", "lunch", "dinner"]
   },
@@ -260,7 +260,7 @@ const foodItems = [
     price: 180,
     category: "desserts",
     isVeg: true,
-    image: "https://images.pexels.com/photos/3625372/pexels-photo-3625372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/RZzpxh2Q/icecreamsundae.jpg",
     popular: true,
     tags: ["sweet", "cold", "dessert"]
   },
@@ -271,7 +271,7 @@ const foodItems = [
     price: 190,
     category: "veg",
     isVeg: true,
-    image: "https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/RqxWb73t/friedrice.jpg",
     popular: false,
     tags: ["rice", "stir-fried", "lunch", "dinner"]
   },
@@ -282,7 +282,7 @@ const foodItems = [
     price: 230,
     category: "non-veg",
     isVeg: false,
-    image: "https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/sxkWCFLv/chickenfriedrice.jpg",
     popular: false,
     tags: ["rice", "stir-fried", "lunch", "dinner"]
   },
@@ -293,7 +293,7 @@ const foodItems = [
     price: 120,
     category: "beverages",
     isVeg: true,
-    image: "https://images.pexels.com/photos/4886228/pexels-photo-4886228.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/GmJyV5xm/coldcoffee.jpg",
     popular: true,
     tags: ["cold", "drink", "coffee"]
   },
@@ -304,7 +304,7 @@ const foodItems = [
     price: 140,
     category: "veg",
     isVeg: true,
-    image: "https://images.pexels.com/photos/5589056/pexels-photo-5589056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/dtGn6vD7/pavbhaji.jpg",
     popular: true,
     tags: ["street food", "spicy", "dinner"]
   },
@@ -315,7 +315,7 @@ const foodItems = [
     price: 170,
     category: "non-veg",
     isVeg: false,
-    image: "https://images.pexels.com/photos/6941001/pexels-photo-6941001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/52MzPVvr/chickenshawarma.jpg",
     popular: true,
     tags: ["wrap", "roll", "lunch"]
   },
@@ -326,7 +326,7 @@ const foodItems = [
     price: 150,
     category: "desserts",
     isVeg: true,
-    image: "https://images.pexels.com/photos/15025789/pexels-photo-15025789/free-photo-of-ice-cream-in-a-glass.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://i.postimg.cc/9MSRy5CJ/falooda.jpg",
     popular: false,
     tags: ["sweet", "cold", "dessert", "drink"]
   }
